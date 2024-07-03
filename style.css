@@ -1,0 +1,436 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin: 0;
+     padding: 0;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: bisque;
+    top: 0;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+}
+.bar{
+    margin-right:50% ;
+    margin-left: 2%;
+
+}
+h2{
+    color: brown;
+}
+
+.togglebtn{
+    display: none;
+}
+
+.list a{
+    color: brown;
+    font-weight: 300;
+    }
+
+li{
+    display: inline;
+    font-weight: bold;
+    margin: 25px;
+
+}
+
+.list a:hover{
+    color: brown;
+    font-weight: bolder;
+}
+
+li a{
+text-decoration: none;
+}
+
+#welcome-page{
+    display: flex;
+    padding: 5%;
+    margin-top:10%;
+}
+
+
+.welcome-image{
+    width: 40%;
+    margin-top: 35px;
+}
+
+h1{
+    font-size: 3.7rem;
+    color: brown;
+    line-height: 4.5rem;
+
+}
+
+.btn{
+    width: 30%;
+    border: none;
+    background-color: brown;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 2%;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn a:hover{
+color: bisque;
+}
+
+#about{
+    background-color:brown;
+    color: white;
+    padding:5% 5% 10% 5%;
+}
+
+.about{
+font-weight: bold;
+font-size: 1.5rem;
+line-height: 2rem;
+
+}
+
+#contact{
+    padding:5% 5% 10% 5%;
+}
+
+
+.cont-txt{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.btn-contact{
+    width: 20%;
+    border: none;
+    background-color: brown;
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+    cursor: pointer;
+    padding: 1%;
+}
+
+.btn-contact a{
+text-decoration: none;
+color: white;
+}
+
+
+.btn-contact a:hover{
+    color: bisque;
+    }
+
+footer{
+    background-color:bisque;
+    padding: 20px 0;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+
+}
+
+.footer-icon{
+    margin: 10px;
+    font-size: medium;
+    color: brown;
+}
+
+.footer-icon:hover{
+    color: darkred;
+}
+
+
+/*media query*/
+@media (min-width:320px) and (max-width:758px){
+
+    .bar{
+        font-size: 1.5rem;
+    }
+    
+    .list{
+        display: none;
+    }
+    
+.togglebtn{
+    color: brown;
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+    
+#welcome-page{
+    display: inline;
+    padding: 5%;
+}
+
+h1{
+    font-size:2.5rem;
+    line-height: 3.5rem;
+    word-spacing: 1px;
+}
+
+.welcome-p{
+    margin-top: 40%;
+    text-align: center;
+    padding: 0 5% 0 5%;
+}
+
+.btn{
+    width: 50%;
+    padding: 2%;
+    border: none;
+    background-color: brown;
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+    cursor: pointer;
+    text-align: center;
+}
+.welcome-image{
+    width: 100%;
+    margin: 7% 0 7% 0;
+}
+
+#about{
+    text-align: center;
+    padding: 5% 5% 15% 5%;
+    text-align: justify;
+}
+
+.about{
+    font-size: 1.3rem;
+}
+
+.text-shop-1,.text-shop-2{
+font-size: 1.5rem;
+}
+
+#contact{
+text-align: center;
+font-size: 2rem;
+padding: 5% 5% 25% 5%;
+}
+
+.cont-txt{
+    font-size: 2.2rem;
+}
+
+.btn-contact{
+    width: 50%;
+}
+}
+
+
+@media (min-width:759px) and (max-width:1024px){
+.bar{
+font-size: 1.5rem;
+margin-left: 0%;
+}
+
+
+li{
+    margin: 8px;
+    font-size: 1rem;
+
+}
+#welcome-page{
+    display: inline;
+    text-align: left;
+
+    
+}
+
+h1{
+    font-size:3.5rem;
+    line-height: 5rem;
+}
+
+.welcome-p{
+    margin-top: 20%;
+    padding:0 4% 0 4% ;
+
+}
+
+.btn{
+    width: 40%;
+    padding: 2%;
+    font-size: 2.5rem;
+}
+.welcome-image{
+    width: 100%;
+    margin: 7% 0 7% 0;
+}
+
+#about{
+    text-align: center;
+    padding: 5% 5% 15% 5%;
+    text-align: justify;
+}
+
+.about{
+    font-size:2rem;
+    line-height: 40px;
+}
+
+.text-shop-1,.text-shop-2{
+font-size: 2.5rem;
+}
+
+.home-button{
+    margin: 0 0 5% 4%;
+}
+.container{
+    width: 400px;
+    height: 600px;
+}
+.txt, .txxt{
+    font-size: 15px;
+}
+
+.btn-contact{
+    width: 45%;
+    border: none;
+    background-color: brown;
+    font-size: 2.5rem;
+    margin-bottom: 2%;
+    cursor: pointer;
+    padding: 2%;
+}
+}
+
+
+/*form*/
+form{
+text-align: left;
+}
+
+.container{
+    margin: auto;
+    width: 300px;
+    height: 480px;
+    border-radius: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: brown;
+    padding: 4%;
+    margin-top: 2%;
+}
+
+.txt{
+    padding: 4% 0 4% 0;
+    width: 100%;
+}
+
+.gender{
+    color: white;
+
+}
+.btnn{
+    width: 40%;
+    padding: 5%;
+    cursor: pointer;
+    border: none;
+    font-size: medium;
+    border-radius: 2%;
+    background-color: #fff;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+.btnn:hover{
+    background-color:peachpuff;
+}
+
+textarea{
+    padding-top: 5%;
+    width: 100%;
+}
+
+.logins{
+    width: 300px;
+    height: 200px;
+    border-radius: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: brown;
+    padding: 4%;
+    margin-top: 3%;
+}
+
+
+.log{
+    font-size:small;
+    text-decoration: none;
+    color: white;
+}
+
+.log:hover{
+    color: peachpuff;
+    font-weight: bolder;
+}
+
+.login{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/** Shoping**/
+.flex-container{
+    margin: auto;
+    padding: 30px 0 30px 0;
+}
+.flex-box{
+    margin: auto;
+    background-color:bisque;
+    width: 80%;
+    padding: 40px;
+    font-size: 1rem;
+    margin-bottom: 30px;
+
+}
+.shop-image{
+    width: 100%;
+}
+
+.shop-button{
+background-color: brown;
+color: bisque;
+border: none;
+font-size: 1.5rem;
+width: 100%;
+padding: 6px;
+border-radius: 20px;
+}
+
+.text-shop-1{
+    color: brown;
+}
+
+.text-shop-2{
+    color: brown;
+}
+
+.home-button{
+    border: none;
+    border-radius: 20px;
+    color: darkred;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 0 0 5% 7%;
+
+}
